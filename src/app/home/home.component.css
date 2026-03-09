@@ -1,0 +1,198 @@
+header{
+    background-image: url(../../assets/header-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+header p{
+    font-size: 60px;
+}
+.header-content h1{
+    font-size: 45px;
+}
+.header-icon{
+    background: rgba(0, 0, 0, 0.3);
+    width: 35px;
+    height: 35px;
+}
+.p-top{
+    padding-top: 100px;
+}
+header h1::after{
+    content: "";
+    animation:typing 8s infinite ;
+    font-weight: bolder;
+    color: var(--main-color);
+    font-weight: 600;
+    text-shadow: 2px 2px #ea90f24e  ;
+
+}
+@keyframes typing{
+    0%{
+        content: 'M|';
+    }
+    2%{
+        content: 'Ma|';
+    }
+    4%{
+        content: 'Mar|';
+    }
+    6%{
+        content: 'Mari|';
+    }
+    8%{
+        content: 'Marin|';
+    }
+    10%{
+        content: 'Marina|';
+    }
+    12%{
+        content: 'Marina M|';
+    }
+    14%{
+        content: 'Marina Mi|';
+    }
+    16%{
+        content: 'Marina Mic|';
+    }
+    17%{
+        content: 'Marina Mich|';
+    }
+    18%{
+        content: 'Marina Miche|';
+    }
+    20%{
+        content: 'Marina Michel|';
+        }
+    22%{
+        content: 'Marina Michel|';
+    }
+    24%{
+        content: 'Marina Michel|';
+    }
+    26%{
+        content: 'Marina Miche|';
+    }
+    28%{
+        content: 'Marina Mich|';
+    }
+    30%{
+        content: 'Marina Mic||';
+    }
+    32%{
+        content: 'Marina Mi|';
+    }
+    34%{
+        content: 'Marina M|';
+    }
+    36%{
+        content: 'Marina|';
+    }
+    38%{
+        content: 'Marin|';
+    }
+    40%{
+        content: 'Mari|';
+    }
+    42%{
+        content: 'Mar|';
+    }
+    44%{
+        content: 'Ma|';
+    }
+    46%{
+        content: 'M|';
+    }
+    48%{
+        content: '|';
+    }
+    50%{
+        content: 'f|';
+    }
+    52%{
+        content: 'fr|';
+    }
+    54%{
+        content: 'fro|';
+    }
+    56%{
+        content: 'fron|';
+    }
+    58%{
+        content: 'front|';
+    }
+    60%{
+        content: 'fronte|';
+    }
+    62%{
+        content: 'fronten|';
+    }
+    64%{
+        content: 'frontend|';
+    }
+    66%{
+        content: 'frontend d|';
+    }
+    68%{
+        content: 'frontend de|';
+    }
+    70%{
+        content: 'frontend dev|';
+    }
+    72%{
+        content: 'frontend deve|';
+    }
+    74%{
+        content: 'frontend devel|';
+    }
+    76%{
+        content: 'frontend develo|';
+    }
+    78%{
+        content: 'frontend develop|';
+    }
+    80%{
+        content: 'frontend develope|';
+    }
+    82%{
+        content: 'frontend developer|';
+    }
+    84%{
+        content: 'frontend developer|';
+    }
+    86%{
+        content: 'frontend develo|';
+    }
+    88%{
+        content: 'frontend dev|';
+    }
+    90%{
+        content: 'frontend |';
+    }
+    92%{
+        content: 'fronten|';
+    }
+    94%{
+        content: 'front|';
+    }
+    96%{
+        content: 'fro|';
+    }
+    98%{
+        content: 'f|';
+    }
+    100%{
+        content: '|';
+    }
+
+}
+.header-img picture{
+  width: 300px;
+  height: 300px;
+  background-color: var(--main-color);
+  border-radius: 50% 50% 24% 76% / 66% 61% 39% 34% ;
+}
+.header-img picture img {
+   border-radius: 50% 50% 24% 76% / 66% 61% 39% 34% ;
+}

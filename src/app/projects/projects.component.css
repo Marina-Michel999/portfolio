@@ -1,0 +1,23 @@
+.project-card picture img{
+    transition: all 0.5s;
+}
+
+.project-card .project-img:hover picture img{
+    transform: scale(1.2);
+}
+ .project-layer{
+    background: var( --layer-color);    top: 7px;
+    left: 7px;
+    right: 7px;
+    bottom: 7px;
+    top:7px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.project-img:hover .project-layer{
+    opacity: 1;
+    transform: rotateY(360deg);
+}
+.top-180px{
+    top: 180px;
+}

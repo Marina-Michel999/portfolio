@@ -1,1 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
+/* general design */
+:root{
+        /* --main-color: #f4ff25f0; */
+        --main-color: #00d0ff;
+        /* --layer-color: #9ea103a9; */
+        --layer-color: #0391a1a9;
+
+        --main-color-hover: rgb(240, 155, 246);
+        --section-bg:#252525;
+        /* --main-border-color: #73772ef0; */
+        --main-border-color: #496568f0;
+
+        --btn-bg-color: #909710f0;
+
+}
+h1 , h2 , h3 ,h4{
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    color: inherit !important;
+    text-decoration: none;
+}
+p , a{
+    font-family: "Poppins", sans-serif;
+
+}
+p{
+    font-size: 18px;
+    color: #748182;
+}
+.bg-main{
+    background-color: var(--main-color) !important;
+}
+.text-main{
+    color: var(--main-color) !important;
+}
+.border-none{
+    border: none;
+}
+.w-95{
+    width: 95%;
+}
+.w-90{
+    width: 90%;
+}
+.w-80{
+    width: 80%;
+}
+.h-90{
+    height: 90%;
+}
+.section-bg{
+    /* background: radial-gradient(circle at top, #3D3300, #0F0F0F 60%); */
+    background: radial-gradient(circle at top, #00333d, #0F0F0F 60%);
+
+}
+.border-main{
+    border: 1px solid var(--main-border-color);
+
+}
+.shadow-main{
+    box-shadow: 0 0 8px rgba(50, 50, 50, 0.6);
+}
+.hover-main:hover{
+    background-color: var(--main-color) !important;
+    color: #252525 !important;
+}
+li{
+    text-decoration: none;
+}
+html{
+    scroll-padding-top: 60px;
+}
+section h3{
+  color: beige;
+}
+section button{
+  background-color: var(--main-color);
+  color: white;
+}
+.btn-border-main {
+  border: 1px solid var(--main-color) !important;
+}

@@ -1,0 +1,16 @@
+.contact-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+}
+.contact-icon:hover{
+    background-color: #212529;
+    color: var(--main-color);
+}
+form input,textarea{
+    background-color: #f4f4f4;
+}
+input,textarea:focus{
+    outline-color: transparent;
+}
